@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vegas Sports &amp; Hockey: Shopify Rebrand, CRO &amp; Ads Case Study</title>
+<meta name="description" content="Shopify rebrand, CRO and Google Ads for Vegas Sports &amp; Hockey: net sales up 10x and search conversion up 9.6x within three months of launch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Vegas Sports & Hockey: Shopify Rebrand, CRO and Google Ads Case Study", "description": "How Commerce Pundit rebranded and rebuilt the Shopify store of a Las Vegas sports retailer, then grew traffic and orders with CRO, Google Ads and SEO.", "datePublished": "2026-11-19", "author": {"@type": "Organization", "name": "Commerce Pundit", "url": "https://www.commercepundit.com/"}, "about": ["Shopify rebranding", "Shopify theme upgrade", "CRO audit", "Google Ads", "SEO", "AI visibility"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Case Studies", "item": "https://www.commercepundit.com/work/"}, {"@type": "ListItem", "position": 2, "name": "Vegas Sports & Hockey"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why rebrand a Shopify store before running Google Ads?", "acceptedAnswer": {"@type": "Answer", "text": "Ads buy traffic, and a store only turns that traffic into orders if shoppers trust it and find products quickly. Fixing identity, navigation and trust signals first means every ad click lands on a page built to convert."}}, {"@type": "Question", "name": "Does Commerce Pundit handle Shopify development, CRO, PPC and SEO together?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. One team covers Shopify development, rebranding, theme upgrades, CRO audits and changes, Google Ads, SEO and AI visibility, so each channel works from the same product and conversion data."}}, {"@type": "Question", "name": "How do I start a project like this?", "acceptedAnswer": {"@type": "Answer", "text": "Book a free strategy call. We review your store, traffic and goals, then scope the rebrand, CRO and growth work in order of impact."}}]}]}</script>
+<style>
+/* Layout: light editorial page, dark scoreboard card in the hero, dark bands only for the storefront, results and closing.
+   Gold is the single accent (Vegas Golden Knights gold), used for labels, markers and the results bars. */
+:root{
+--ink:#0d0d10;--ink2:#17171c;--ink-line:#2a2a31;--paper:#fff;--mist:#f5f6f8;--line:#e3e5ea;
+--text:#26272c;--mute:#5b5e68;--dmute:#b0b2bb;
+--gold:#8a5f0a;--gold-b:#e2b44a;--gold-soft:#f7edd3;
+--display:"Poppins",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+--body:"Inter",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid #5b7fff;outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{font-family:var(--display);margin:0;color:var(--ink);font-weight:600;line-height:1.16;text-wrap:balance}
+h2{font-size:clamp(1.8rem,3.5vw,2.6rem);letter-spacing:-.015em}
+h3{font-size:1.15rem}
+p{margin:0 0 1em;max-width:66ch}
+section{padding:96px 0;scroll-margin-top:64px}
+.mist{background:var(--mist)}
+.dark{background:var(--ink);color:#dcdde2}
+.dark h2,.dark h3,.dark h4{color:#fff}
+.label{font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;display:flex;align-items:center;gap:12px}
+.label::before{content:"";width:28px;height:2px;background:var(--gold-b)}
+.dark .label{color:var(--gold-b)}
+.sh{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px 72px;align-items:end;margin-bottom:52px}
+.sh .intro{margin:0;color:var(--mute);font-size:1.02rem}
+.dark .sh .intro{color:var(--dmute)}
+@media(max-width:860px){.sh{grid-template-columns:1fr;gap:16px;margin-bottom:36px}section{padding:72px 0}}
+.btn{display:inline-block;font-weight:600;font-size:.94rem;text-decoration:none;padding:13px 26px;border-radius:50px;border:1.5px solid transparent;font-family:var(--body)}
+.btn.gold{background:var(--gold-b);color:var(--ink);border-color:var(--gold-b)}
+.btn.ink{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.out{background:transparent;color:var(--ink);border-color:#b9bcc6}
+.btn.out-d{background:transparent;color:#fff;border-color:#55565e}
+.btn{white-space:nowrap}
+.btn.sm{padding:9px 20px;font-size:.84rem}
+@media(max-width:420px){.btn.sm{padding:8px 14px;font-size:.78rem}.logo b{letter-spacing:.14em;font-size:.85rem}}
+@media(prefers-reduced-motion:no-preference){.btn,.rel{transition:transform .15s ease,border-color .15s ease}.btn:hover,.rel:hover{transform:translateY(-2px)}}
+.row-btn{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+
+/* nav */
+.top{background:var(--ink);position:sticky;top:0;z-index:30}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;height:64px}
+.logo{color:#fff;text-decoration:none;line-height:1;flex:none}
+.logo b{display:block;font-family:var(--display);font-weight:500;letter-spacing:.22em;font-size:.95rem}
+.logo small{display:block;font-size:.48rem;letter-spacing:.3em;margin-top:5px;color:#b5b7bf}
+.links{display:flex;gap:28px;margin-left:auto;font-size:.88rem}
+.links a{color:#d6d7dc;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+.links a:hover{color:#fff;border-color:var(--gold-b)}
+@media(max-width:760px){.links{display:none}}
+
+/* hero */
+.hero{padding:56px 0 0}
+.crumbs{font-size:.85rem;color:var(--mute);margin-bottom:44px}
+.crumbs a{text-decoration:none;border-bottom:1px solid #c5c7cf}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:64px;align-items:center}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr;gap:40px}}
+.hero h1{font-size:clamp(2.2rem,5vw,3.9rem);letter-spacing:-.025em;line-height:1.08}
+.hero .lead{font-size:1.15rem;line-height:1.65;color:#3d3f46;margin:26px 0 0;max-width:54ch}
+.hero-media{margin:0;border-radius:28px;overflow:hidden;aspect-ratio:5/4;background:#e9ebef}
+.hero-media img{display:block;width:100%;height:100%;object-fit:cover}
+.keys{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 24px;background:var(--ink);border-radius:24px;padding:40px;margin-top:64px}
+.keys b{display:block;font-family:var(--display);font-weight:700;font-size:clamp(2.6rem,5.2vw,4.2rem);line-height:1;letter-spacing:-.04em;color:var(--gold-b)}
+.keys span{display:block;margin-top:10px;font-size:.95rem;color:#e6e7eb}
+.keys .cap{grid-column:1 / -1;margin:0;padding-top:22px;border-top:1px solid var(--ink-line);font-size:.88rem;color:var(--dmute);max-width:none}
+@media(max-width:760px){.keys{grid-template-columns:1fr 1fr;padding:28px 24px}}
+.glance{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));margin:40px 0 0}
+.glance div{padding:26px 24px 30px 0}
+.glance div+div{padding-left:24px;border-left:1px solid var(--line)}
+.glance dt{font-size:.74rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.glance dd{margin:8px 0 0;font-family:var(--display);font-weight:500;color:var(--ink);font-size:1.02rem;line-height:1.4}
+@media(max-width:700px){.glance div+div{padding-left:0;border-left:0;border-top:1px solid var(--line)}.glance div{padding:20px 0}}
+
+/* client */
+.client{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:72px;align-items:start}
+@media(max-width:900px){.client{grid-template-columns:1fr;gap:40px}}
+.client p{font-size:1.06rem}
+.client p:last-child{margin-bottom:0}
+.facts{border:1px solid var(--line);border-radius:20px;padding:30px;background:#fff}
+.facts .tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px}
+.facts .tiles div{background:var(--mist);border-radius:14px;padding:18px}
+.facts .tiles b{display:block;font-family:var(--display);font-size:2.4rem;font-weight:700;line-height:1;letter-spacing:-.03em;color:var(--ink)}
+.facts .tiles span{font-size:.82rem;color:var(--mute);display:block;margin-top:8px;line-height:1.4}
+.facts dl{margin:0;display:grid;gap:16px}
+.facts dt{font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.facts dd{margin:3px 0 0;color:var(--ink);font-weight:500;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.facts dl div:last-child dd{border:0;padding-bottom:0}
+
+/* challenge */
+.stats3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.stat3{background:#fff;border:1px solid var(--line);border-radius:20px;padding:34px 30px}
+.stat3 .big{font-family:var(--display);font-weight:700;font-size:clamp(3rem,5vw,4rem);line-height:1;letter-spacing:-.035em;color:var(--ink)}
+.stat3 .bar{width:44px;height:3px;background:var(--gold-b);margin:18px 0 16px}
+.stat3 h3{margin-bottom:8px}
+.stat3 p{margin:0;color:var(--mute);font-size:.96rem}
+
+/* plan */
+.plan{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:72px;align-items:start}
+@media(max-width:900px){.plan{grid-template-columns:1fr;gap:48px}}
+.plan h3.sub{font-size:1.3rem;margin-bottom:22px}
+.why{list-style:none;margin:0;padding:0}
+.why li{padding:20px 0;border-top:1px solid var(--line)}
+.why li:last-child{border-bottom:1px solid var(--line)}
+.why b{display:block;font-family:var(--display);font-weight:600;color:var(--ink);margin-bottom:4px}
+.why span{color:var(--mute);font-size:.98rem}
+.goals{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.goals{grid-template-columns:1fr}}
+.goal{background:var(--mist);border-radius:16px;padding:24px}
+.goal h4{font-size:1.02rem;margin-bottom:8px}
+.goal p{margin:0;font-size:.92rem;color:var(--mute);line-height:1.6}
+
+/* build */
+.wks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:20px}
+.wk{background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px}
+.chip-g{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:var(--gold-soft);color:#6a4806;border-radius:50px;padding:4px 12px;margin-bottom:16px}
+.wk h3{font-size:1.3rem;margin-bottom:10px}
+.wk p{color:var(--mute);font-size:.97rem;margin-bottom:14px}
+.wk ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:.94rem;color:#33343a}
+.wk li{padding-left:22px;position:relative;line-height:1.55}
+.wk li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:2px;background:var(--gold-b)}
+.seq{margin-top:64px}
+.seq h3{font-size:1.3rem;margin-bottom:28px}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;list-style:none;margin:0;padding:0;counter-reset:s}
+.step{position:relative;padding-top:56px}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:0;left:0;width:40px;height:40px;border-radius:50%;background:var(--ink);color:#fff;font-family:var(--display);font-weight:600;display:grid;place-items:center}
+.step::after{content:"";position:absolute;top:19px;left:52px;right:-24px;height:2px;background:var(--line)}
+.step:last-child::after{display:none}
+.step span{font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.step b{display:block;font-family:var(--display);font-size:1.15rem;color:var(--ink);margin:2px 0 4px}
+.step p{margin:0;font-size:.93rem;color:var(--mute);line-height:1.6}
+@media(max-width:860px){.steps{grid-template-columns:1fr 1fr;gap:36px 24px}.step::after{display:none}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}}
+
+/* storefront */
+.sf{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));gap:18px}
+.sf-card{background:var(--ink2);border:1px solid var(--ink-line);border-radius:20px;padding:30px}
+.sf-card h3::before{content:"";display:block;width:28px;height:3px;background:var(--gold-b);margin-bottom:16px}
+.sf-card h3{font-size:1.15rem;margin-bottom:10px}
+.sf-card p{margin:0;color:var(--dmute);font-size:.96rem;line-height:1.65}
+.sf-chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0;list-style:none}
+.sf-chips li{font-size:.8rem;font-weight:500;color:#f1f2f5;border:1px solid #3d3d46;border-radius:50px;padding:5px 12px}
+.sf-also{margin:36px 0 0;padding-top:24px;border-top:1px solid var(--ink-line);color:var(--dmute);font-size:.95rem;max-width:84ch}
+
+/* timeline */
+.tl{list-style:none;margin:0;padding:0;max-width:900px}
+.tl li{display:grid;grid-template-columns:210px minmax(0,1fr);gap:0 40px}
+.tl .when{font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);padding-top:4px;line-height:1.5}
+.tl .body{position:relative;padding:0 0 40px 36px;border-left:2px solid var(--line)}
+.tl li:last-child .body{padding-bottom:0}
+.tl .body::before{content:"";position:absolute;left:-9px;top:5px;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid #9a9ca6}
+.tl li.key .body::before{background:var(--gold-b);border-color:var(--ink)}
+.tl h3{margin:0 0 6px;font-size:1.2rem}
+.tl p{margin:0;color:var(--mute);font-size:.98rem}
+.tl .tag{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.06em;background:var(--ink);color:#fff;border-radius:50px;padding:3px 12px;margin-top:12px}
+.legend-l{font-size:.85rem;color:var(--mute);margin:36px 0 0}
+@media(max-width:720px){.tl li{grid-template-columns:1fr}.tl .when{padding:0 0 6px 38px}.tl .body{margin-top:-2px}}
+
+/* results */
+.chartbox{background:var(--ink2);border:1px solid var(--ink-line);border-radius:24px;padding:14px 36px 26px}
+.gr{display:grid;grid-template-columns:minmax(160px,250px) minmax(0,1fr) 84px;gap:24px;align-items:center;padding:18px 0;border-top:1px solid var(--ink-line)}
+.gr:first-child{border-top:0}
+.gl b{display:block;font-weight:500;color:#fff;font-size:1rem}
+.gl span{display:block;font-size:.82rem;color:var(--dmute);line-height:1.45;margin-top:3px}
+.gt{height:24px;background:#26262d;border-radius:50px;position:relative}
+.gt i{position:absolute;left:0;top:0;bottom:0;background:var(--gold-b);border-radius:50px}
+.gt::after{content:"";position:absolute;left:10%;top:-6px;bottom:-6px;width:2px;background:#8d8f99}
+.gv{font-family:var(--display);font-weight:700;font-size:1.6rem;color:#fff;text-align:right;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.axis{font-size:.8rem;color:var(--dmute);margin:6px 0 0}
+@media(max-width:700px){.chartbox{padding:8px 22px 22px}.gr{grid-template-columns:minmax(0,1fr) auto;gap:10px 12px}.gt{grid-column:1 / -1;order:3}}
+.readme{margin:40px 0 0;max-width:820px}
+.readme h3{font-size:1rem;margin-bottom:12px;color:#fff}
+.readme ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.readme li{padding-left:20px;position:relative;font-size:.92rem;color:var(--dmute);line-height:1.65}
+.readme li::before{content:"";position:absolute;left:0;top:.7em;width:8px;height:2px;background:var(--gold-b)}
+
+/* conversion rows */
+.cv{border-top:1px solid #d5d8df}
+.cvr{display:grid;grid-template-columns:minmax(0,280px) minmax(0,1fr);gap:18px 56px;padding:36px 0;border-bottom:1px solid #d5d8df;align-items:start}
+.cvr h3{font-size:1.2rem}
+.cvr .sub{font-size:.88rem;color:var(--mute);margin-top:4px}
+.vals{display:flex;flex-wrap:wrap;gap:24px 56px}
+.val b{display:block;font-family:var(--display);font-size:clamp(2rem,3.6vw,2.7rem);font-weight:700;line-height:1;letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums}
+.val.k b{color:var(--gold)}
+.val span{display:block;margin-top:8px;font-size:.92rem;color:var(--mute)}
+.cvr .foot{grid-column:2;margin:0;font-size:.95rem;color:var(--text)}
+@media(max-width:760px){.cvr{grid-template-columns:1fr;gap:16px;padding:28px 0}.cvr .foot{grid-column:1}}
+
+/* under the hood */
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:72px;align-items:start}
+@media(max-width:900px){.two{grid-template-columns:1fr;gap:56px}}
+.two h2{font-size:clamp(1.6rem,3vw,2.1rem);margin-bottom:28px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.chips li{border:1px solid var(--line);background:#fff;border-radius:50px;padding:9px 18px;font-weight:500;font-size:.92rem;color:var(--ink)}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.checks li{padding:16px 0 16px 38px;position:relative;border-top:1px solid var(--line);color:#33343a}
+.checks li:last-child{border-bottom:1px solid var(--line)}
+.checks li::before{content:"";position:absolute;left:4px;top:1.15em;width:14px;height:8px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+
+/* faq */
+.faq{max-width:860px}
+details{border-top:1px solid #d5d8df;padding:24px 0}
+details:last-of-type{border-bottom:1px solid #d5d8df}
+summary{cursor:pointer;font-family:var(--display);font-weight:500;font-size:1.12rem;color:var(--ink);list-style:none;display:flex;justify-content:space-between;gap:24px;align-items:flex-start}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.7rem;line-height:1;color:var(--gold);flex:none}
+details[open] summary::after{content:"\2212"}
+details p{margin:14px 0 0;color:var(--mute)}
+
+/* related + closing */
+.rels{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px}
+.rel{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px}
+.rel:hover{border-color:var(--ink)}
+.rel small{font-size:.74rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.rel b{display:block;font-family:var(--display);font-size:2.4rem;font-weight:700;color:var(--ink);letter-spacing:-.03em;margin:10px 0 4px;line-height:1.1}
+.rel span{font-size:.94rem;color:var(--mute)}
+.cta{text-align:center;padding:112px 0}
+.cta .label{justify-content:center}
+.cta .label::before{display:none}
+.cta h2{color:#fff;font-size:clamp(2rem,4.6vw,3.2rem);max-width:20ch;margin:0 auto}
+.cta p{margin:22px auto 0;color:#cfd0d6}
+.cta .tag-line{color:#fff;font-family:var(--display);font-weight:500;font-size:1.1rem;margin-top:30px}
+.cta .row-btn{justify-content:center}
+footer{background:var(--ink);color:#9a9ca5;font-size:.82rem;padding:28px 0;border-top:1px solid var(--ink-line)}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="https://www.commercepundit.com/"><b>COMMERCE PUNDIT</b><small>DESIGN. DEVELOP. GROW.</small></a>
+  <nav class="links" aria-label="On this page"><a href="#challenge">Challenge</a><a href="#build">Build</a><a href="#results">Results</a><a href="#faq">FAQ</a></nav>
+  <a class="btn gold sm" href="#cta">Schedule a call</a>
+</div></header>
+<main>
+<div class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://www.commercepundit.com/work/">Case Studies</a> / Vegas Sports &amp; Hockey</div>
+  <div class="hero-grid">
+    <div>
+      <h1>How a Las Vegas sports shop grew monthly net sales 10x on Shopify</h1>
+      <p class="lead">Vegas Sports &amp; Hockey has sold licensed jerseys, caps and collectibles in Las Vegas since 1998. Commerce Pundit rebranded and rebuilt its Shopify store, tuned the path to checkout, then put Google Ads and SEO behind it.</p>
+      <div class="row-btn"><a class="btn ink" href="#cta">Get your free quote</a><a class="btn out" href="https://uniformsport.com/">View website</a></div>
+    </div>
+    <figure class="hero-media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'%3E%3Crect width='500' height='400' fill='%23e9ebef'/%3E%3C/svg%3E" width="1000" height="800" alt="Vegas Sports & Hockey store"></figure>
+  </div>
+  <div class="keys" role="group" aria-label="Headline results"><div><b>10x</b><span>Monthly net sales</span></div><div><b>9.6x</b><span>Search conversion</span></div><div><b>8.6x</b><span>New customers</span></div><div><b>6.1x</b><span>Monthly orders</span></div><p class="cap">September and October average against the May to July average</p></div>
+  <dl class="glance"><div><dt>Industry</dt><dd>Sports Apparel &amp; Licensed Merchandise</dd></div><div><dt>Platform</dt><dd>Shopify</dd></div><div><dt>Market</dt><dd>Las Vegas, NV and US-wide</dd></div><div><dt>Timeline</dt><dd>Live July 2026, ads from mid August</dd></div></dl>
+</div></div>
+<section id="client"><div class="wrap">
+  <div class="sh"><div><div class="label">The client</div><h2>A family business with 28 years of Las Vegas behind it</h2></div></div>
+  <div class="client">
+    <div><p>Vegas Sports &amp; Hockey is a licensed sports shop in Las Vegas, founded in 1998 and still family owned. Online it trades as Uniform Sports. It carries jerseys, fitted caps, tees, hoodies and collectibles across the NFL, NHL, MLB, NBA, NCAA and more, with a strong local focus on the Vegas Golden Knights, Las Vegas Raiders and Las Vegas Aviators.</p><p>Our scope covered the whole journey: a Shopify rebrand and theme upgrade, a CRO audit with a first round of changes, then paid and organic growth on the new foundation.</p></div>
+    <aside class="facts" aria-label="Client snapshot"><div class="tiles"><div><b>1998</b><span>Founded in Las Vegas, Nevada</span></div><div><b>28</b><span>Years in business</span></div></div><dl><div><dt>Business</dt><dd>Licensed sports retailer, family owned</dd></div><div><dt>Online store</dt><dd>Uniform Sports, uniformsport.com</dd></div></dl></aside>
+  </div>
+</div></section>
+<section id="challenge" class="mist"><div class="wrap">
+  <div class="sh"><div><div class="label">The challenge</div><h2>Strong in the shop, quiet online</h2></div><p class="intro">The reputation was built in person. Online it was not turning into orders, and weekly traffic sat in the hundreds.</p></div>
+  <div class="stats3"><div class="stat3"><div class="big">0.47%</div><div class="bar"></div><h3>Store conversion before launch</h3><p>From May to July, fewer than one visit in 200 ended in an order. With so few orders there was too little data to learn from and too little demand to scale.</p></div><div class="stat3"><div class="big">0.34%</div><div class="bar"></div><h3>Search conversion before launch</h3><p>Shoppers who arrived through search rarely bought, so paid traffic had little to build on.</p></div><div class="stat3"><div class="big">2</div><div class="bar"></div><h3>Names for one business</h3><p>Vegas Sports &amp; Hockey and Uniform Sports both appeared across the store, search listings and ads. Shoppers and search engines had no single brand to remember.</p></div></div>
+</div></section>
+<section id="plan"><div class="wrap">
+  <div class="sh"><div><div class="label">The plan</div><h2>One team, accountable for the build and the revenue</h2></div><p class="intro">The client wanted a single partner answerable for the store and for the sales it produced.</p></div>
+  <div class="plan">
+    <div><h3 class="sub">Why they chose Commerce Pundit</h3><ul class="why"><li><b>Shopify development depth</b><span>Theme-level Liquid work, not template swaps. The store needed a structure that could hold hundreds of league, team and brand pages.</span></li><li><b>Conversion-first thinking</b><span>Every design choice was checked against the buying path: league, team, product, size, checkout.</span></li><li><b>Paid and organic together</b><span>Google Ads, SEO and AI visibility run on the same product and conversion data, so each channel feeds the others.</span></li></ul></div>
+    <div><h3 class="sub">Four goals, each tied to a number we could track</h3><div class="goals"><div class="goal"><h4>One clear brand</h4><p>Unify the Vegas Sports &amp; Hockey and Uniform Sports identity across storefront, search and ads.</p></div><div class="goal"><h4>Convert more traffic</h4><p>Turn browsers into buyers on mobile and desktop with a faster path from league to checkout.</p></div><div class="goal"><h4>Grow qualified traffic</h4><p>Reach fans searching for specific teams, players and gear through Google Ads and organic search.</p></div><div class="goal"><h4>Protect return on spend</h4><p>Measure every channel against order value so budget goes where it earns.</p></div></div></div>
+  </div>
+</div></section>
+<section id="build" class="mist"><div class="wrap">
+  <div class="sh"><div><div class="label">The build</div><h2>Six workstreams, each setting up the next</h2></div><p class="intro">The foundation came first, conversion second and paid traffic third, so every step made the next one pay back more.</p></div>
+  <div class="wks"><article class="wk"><span class="chip-g">Shopify Rebranding</span><h3>Brand and storefront redesign</h3><p>A new visual identity and a storefront that speaks to fans in their own terms.</p><ul><li>One brand voice across store, search listings and ads</li><li>A homepage organized around league, brand and category</li><li>Trust messaging for shipping, returns and authenticity</li></ul></article><article class="wk"><span class="chip-g">Shopify Development</span><h3>Theme upgrade in Shopify</h3><p>A custom Online Store 2.0 theme sized for a catalog of league, team and brand pages.</p><ul><li>League-first header navigation for hundreds of teams</li><li>Loyalty and Google review widgets on the storefront</li><li>Mobile-first layout, since two thirds of visits are on phones</li></ul></article><article class="wk"><span class="chip-g">CRO Audit and Changes</span><h3>Conversion rate optimization</h3><p>A funnel audit, then changes aimed at the steps where shoppers dropped.</p><ul><li>Funnel review from session to cart to checkout</li><li>Device and landing page analysis in Shopify</li><li>Changes to product pages, navigation and the checkout path</li></ul></article><article class="wk"><span class="chip-g">PPC</span><h3>Google Ads</h3><p>Campaigns launched gradually from mid August 2026 and scaled as data came in.</p><ul><li>Phased budget ramp instead of a day-one spend spike</li><li>Team, league and product intent themes</li><li>Weekly review of traffic against Shopify orders</li><li>Budget moved toward what converted</li></ul></article><article class="wk"><span class="chip-g">SEO</span><h3>Ecommerce SEO</h3><p>A catalog structure that lets team and league pages rank for how fans actually search.</p><ul><li>Product structured data (JSON-LD) on product pages</li><li>Team and league collections as ranking targets</li><li>Brand name aligned across search listings</li></ul></article><article class="wk"><span class="chip-g">AI Visibility</span><h3>AEO and GEO</h3><p>Content and markup shaped so AI assistants and search summaries can read and cite the store.</p><ul><li>Clear, citable facts: founding year, shipping, returns, authenticity</li><li>Product and brand data structured for machine reading</li><li>Brand entity consistency across the web</li></ul></article></div>
+  <div class="seq"><h3>How the work was sequenced</h3><ol class="steps"><li class='step'><span>Phase 1</span><b>Foundation</b><p>Rebrand, redesign and theme upgrade.</p></li><li class='step'><span>Phase 2</span><b>Convert</b><p>CRO audit, then changes on the buying path.</p></li><li class='step'><span>Phase 3</span><b>Acquire</b><p>Google Ads ramp and SEO build-out.</p></li><li class='step'><span>Phase 4</span><b>Compound</b><p>AI visibility and ongoing optimization.</p></li></ol></div>
+</div></section>
+<section id="store" class="dark"><div class="wrap">
+  <div class="sh"><div><div class="label">The storefront</div><h2>A homepage built around how fans shop</h2></div><p class="intro">Fans arrive with a team in mind. The homepage gets them there in one click and answers their trust questions on the way.</p></div>
+  <div class="sf"><article class='sf-card'><h3>Hero that sells the lifestyle</h3><p>A fan-first banner carousel sets the tone and leads straight to league shopping.</p></article><article class='sf-card'><h3>Trust before the scroll</h3><p>These five points sit directly under the hero.</p><ul class='sf-chips'><li>Free shipping over $75</li><li>Orders out within 24 hours</li><li>30-day returns</li><li>Authenticity guarantee</li><li>Family owned since 1998</li></ul></article><article class='sf-card'><h3>League-first navigation</h3><p>Each league opens its own team list, so shoppers reach the right jersey fast.</p><ul class='sf-chips'><li>NFL</li><li>NHL</li><li>MLB</li><li>MiLB</li><li>NBA</li><li>NCAA</li><li>WBC</li><li>MLS</li><li>FIFA</li></ul></article><article class='sf-card'><h3>A story that earns the click</h3><p>The owner and founding story turn a faceless online shop into the Las Vegas store people already know.</p></article><article class='sf-card'><h3>Local teams up front</h3><p>Featured cards for the Golden Knights, Raiders and Aviators match the highest-intent local searches. New Era Fitted and official partners sit in the same block.</p></article><article class='sf-card'><h3>Email capture with an offer</h3><p>A first-order discount on the Join The Club signup builds a list the store owns, for abandoned-cart and seasonal campaigns.</p></article></div>
+  <p class="sf-also">The page also has an announcement bar, a header with Shop All, By League, New Arrivals, Best Sellers and Sale, a New Arrivals and Best Sellers block, and Shop by Brand and by Category.</p>
+</div></section>
+<section id="season"><div class="wrap">
+  <div class="sh"><div><div class="label">The season</div><h2>From launch to steady growth in one season</h2></div><p class="intro">Weekly figures are sessions and sessions with a cart add, from Shopify Analytics.</p></div>
+  <ol class="tl"><li class=""><div class="when">Before July 2026</div><div class="body"><h3>The starting point</h3><p>Store conversion under 0.5% and almost no cart activity from search traffic.</p></div></li><li class="key"><div class="when">July 2026</div><div class="body"><h3>Rebrand, redesign and theme upgrade go live</h3><p>New identity, league-first storefront and a custom Online Store 2.0 theme on Shopify.</p><span class="tag">Shopify Rebranding</span></div></li><li class="key"><div class="when">Mid August 2026</div><div class="body"><h3>Google Ads starts, ramping gradually</h3><p>Weekly traffic begins to climb as campaigns scale and the new storefront catches the clicks.</p><span class="tag">PPC</span></div></li><li class=""><div class="when">Week of August 31</div><div class="body"><h3>Traffic hits 2.5x its pre-launch high</h3><p>Weekly sessions pass the best pre-launch week by about 2.5x. Conversion is still catching up.</p></div></li><li class=""><div class="when">September 2026</div><div class="body"><h3>Orders and new customers take off</h3><p>Net sales run 12.7x the May to July monthly average.</p><span class="tag">CRO</span></div></li><li class="key"><div class="when">Week of September 28</div><div class="body"><h3>Weekly conversion peaks at 3.28%</h3><p>The highest weekly rate in the weeks reviewed. Sessions with a cart add run about 13x the best pre-launch week.</p></div></li><li class=""><div class="when">October to early November 2026</div><div class="body"><h3>The run-rate holds</h3><p>October orders stay near September&#x27;s level, and early November traffic is about 2.6x the best pre-launch week.</p></div></li></ol>
+  <p class="legend-l">Gold markers show the three turning points: the launch, the start of ads and the conversion peak.</p>
+</div></section>
+<section id="results" class="dark"><div class="wrap">
+  <div class="sh"><div><div class="label">The results</div><h2>Sales, customers and search conversion all stepped up</h2></div><p class="intro">Figures come from Shopify Admin and Shopify Analytics. Each bar compares the September and October monthly average with the May to July monthly average, shown as 1x.</p></div>
+  <div class="chartbox"><div class="gr"><div class="gl"><b>Monthly net sales</b></div><div class="gt" role="img" aria-label="Monthly net sales: 10x the baseline"><i style="width:100%"></i></div><div class="gv">10x</div></div><div class="gr"><div class="gl"><b>Search conversion</b><span>From 0.34% to 3.23% of search sessions ordering</span></div><div class="gt" role="img" aria-label="Search conversion: 9.6x the baseline"><i style="width:96%"></i></div><div class="gv">9.6x</div></div><div class="gr"><div class="gl"><b>New customers</b></div><div class="gt" role="img" aria-label="New customers: 8.6x the baseline"><i style="width:86%"></i></div><div class="gv">8.6x</div></div><div class="gr"><div class="gl"><b>Completed checkouts</b></div><div class="gt" role="img" aria-label="Completed checkouts: 7.2x the baseline"><i style="width:72%"></i></div><div class="gv">7.2x</div></div><div class="gr"><div class="gl"><b>Cart-add sessions</b><span>Shoppers adding to cart</span></div><div class="gt" role="img" aria-label="Cart-add sessions: 6.2x the baseline"><i style="width:62%"></i></div><div class="gv">6.2x</div></div><div class="gr"><div class="gl"><b>Monthly orders</b></div><div class="gt" role="img" aria-label="Monthly orders: 6.1x the baseline"><i style="width:61%"></i></div><div class="gv">6.1x</div></div><div class="gr"><div class="gl"><b>Store conversion rate</b><span>From 0.47% to 1.40% of all sessions</span></div><div class="gt" role="img" aria-label="Store conversion rate: 3x the baseline"><i style="width:30%"></i></div><div class="gv">3x</div></div><p class="axis">Bars are drawn to scale. The grey line marks the May to July baseline (1x).</p></div>
+  <div class="readme"><h3>How to read these numbers</h3><ul><li>The May to July baseline covers the three months before Google Ads scaled.</li><li>Net sales are after discounts and returns. Search is Shopify&#x27;s referrer class for search engines and covers paid and organic.</li><li>The gains come from the rebrand, the conversion changes and Google Ads working together. The period also overlaps the start of the NFL season, which lifts demand for jerseys, and Shopify cannot split the effect of each factor.</li></ul></div>
+</div></section>
+<section id="converted" class="mist"><div class="wrap">
+  <div class="sh"><div><div class="label">Where it converted</div><h2>Search drove most orders, and most visits came from phones</h2></div><p class="intro">Last 90 days to mid November 2026, from Shopify Analytics, unless stated.</p></div>
+  <div class="cv"><div class='cvr'><div><h3>Shopping funnel</h3><div class='sub'>Share of all sessions</div></div><div class='vals'><div class='val'><b>100%</b><span>Sessions</span></div><div class='val'><b>4.3%</b><span>Sessions with a cart add</span></div><div class='val k'><b>1.3%</b><span>Completed checkouts</span></div></div></div><div class='cvr'><div><h3>Where orders came from</h3><div class='sub'>Share of orders since mid August</div></div><div class='vals'><div class='val k'><b>72%</b><span>Search</span></div><div class='val'><b>28%</b><span>Direct and other</span></div></div><p class='foot'>Search visits ran 2.5x the pre-launch level in September and October.</p></div><div class='cvr'><div><h3>Conversion by source</h3><div class='sub'>Conversion rate</div></div><div class='vals'><div class='val k'><b>2.88%</b><span>Google</span></div><div class='val'><b>0.81%</b><span>Instagram</span></div><div class='val'><b>0.47%</b><span>Direct</span></div></div><p class='foot'>Google referrals convert about 6x direct visits.</p></div><div class='cvr'><div><h3>Traffic by device</h3><div class='sub'>Share of sessions</div></div><div class='vals'><div class='val k'><b>68%</b><span>Mobile</span></div><div class='val'><b>31%</b><span>Desktop</span></div><div class='val'><b>1%</b><span>Tablet</span></div></div><p class='foot'>Mobile sessions convert at 1.67%.</p></div></div>
+</div></section>
+<section id="hood"><div class="wrap">
+  <div class="label">Under the hood</div>
+  <div class="two">
+    <div><h2>Built on Shopify, measured end to end</h2><ul class="chips"><li>Shopify</li><li>Online Store 2.0</li><li>Liquid</li><li>Google Ads</li><li>Google Tag Manager</li><li>Shopify Analytics</li><li>Product JSON-LD</li></ul></div>
+    <div><h2>What we keep doing</h2><ul class="checks"><li>Google Ads management, search term review and budget allocation</li><li>CRO testing on navigation, product pages and the mobile and desktop checkout path</li><li>SEO for team, league and product pages, including technical and structured data upkeep</li><li>AI visibility monitoring and content updates for AEO and GEO</li><li>Shopify theme maintenance, app review and performance monitoring</li></ul></div>
+  </div>
+</div></section>
+<section id="faq" class="mist"><div class="wrap">
+  <div class="sh"><div><div class="label">FAQ</div><h2>Frequently asked questions</h2></div></div>
+  <div class="faq"><details><summary>Why rebrand a Shopify store before running Google Ads?</summary><p>Ads buy traffic, and a store only turns that traffic into orders if shoppers trust it and find products quickly. Fixing identity, navigation and trust signals first means every ad click lands on a page built to convert.</p></details><details><summary>Does Commerce Pundit handle Shopify development, CRO, PPC and SEO together?</summary><p>Yes. One team covers Shopify development, rebranding, theme upgrades, CRO audits and changes, Google Ads, SEO and AI visibility, so each channel works from the same product and conversion data.</p></details><details><summary>How do I start a project like this?</summary><p>Book a free strategy call. We review your store, traffic and goals, then scope the rebrand, CRO and growth work in order of impact.</p></details></div>
+</div></section>
+<section id="more"><div class="wrap">
+  <div class="sh"><div><div class="label">More case studies</div><h2>See more ecommerce results</h2></div></div>
+  <div class="rels"><a class="rel" href="https://www.commercepundit.com/pf/big-city-sportswear/"><small>Custom Apparel</small><b>47%</b><span>GMV growth, Big City Sportswear</span></a><a class="rel" href="https://www.commercepundit.com/pf/sport-decals/"><small>Custom Apparel</small><b>60%</b><span>Higher conversions, Sport Decals</span></a><a class="rel" href="https://www.commercepundit.com/pf/ceptics-india/"><small>Shopify</small><b>4.6x</b><span>Google Ads ROAS, Ceptics India</span></a><a class="rel" href="https://www.commercepundit.com/pf/suspension-direct/"><small>Automotive Parts</small><b>+95%</b><span>ROAS, Suspension Direct</span></a></div>
+</div></section>
+<section class="cta dark" id="cta"><div class="wrap">
+  <div class="label">The takeaway</div>
+  <h2>Nearly 30 years of trust, now working online</h2>
+  <p>Vegas Sports &amp; Hockey already had a loyal local following. The new Shopify store, a conversion-focused build and paid and organic search now carry that trust online, and the first three months show traffic, cart activity and orders moving together.</p>
+  <p class="tag-line">Rebrand, convert, advertise and rank your Shopify store with one team.</p>
+  <div class="row-btn"><a class="btn gold" href="https://www.commercepundit.com/">Book a free strategy call</a><a class="btn out-d" href="https://uniformsport.com/">View website</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">Commerce Pundit &middot; Atlanta, GA &middot; Ahmedabad, India</div></footer>
+</body>
+</html>
